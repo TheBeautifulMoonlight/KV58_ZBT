@@ -1,12 +1,12 @@
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+"E:\单片机IAR\IAR\arm\bin\armproc.dll" 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armjlink2.dll" 
+"E:\单片机IAR\IAR\arm\bin\armjlink2.dll" 
 
-"F:\KV58_project\KV58_ZBT\IAR\project\Debug\Exe\KV58_ZBT.out" 
+"G:\电子设计\KV58\KV58_ZBT\IAR\project\Debug\Exe\KV58_ZBT.out" 
 
---plugin="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+--plugin="E:\单片机IAR\IAR\arm\bin\armbat.dll" 
 
---device_macro="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\NXP\KV5x.dmac" 
+--device_macro="E:\单片机IAR\IAR\arm\config\debugger\NXP\KV5x.dmac" 
 
 
 

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+"E:\单片机IAR\IAR\common\bin\cspybat" -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+"E:\单片机IAR\IAR\common\bin\cspybat" -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
 
 @echo off 
 :end

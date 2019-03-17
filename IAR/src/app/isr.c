@@ -19,3 +19,15 @@ void HardFault_Handler(void)
 {
   Error_handler("HardFault");
 }
+
+//中断定义区
+
+void VSYNC_IRQ(void)
+{
+  u32 flag = VSYNC_ISFR;
+  VSYNC_ISFR=~0;//清中断
+  if(flag & (1<<2))
+  {
+    ov7725_get_img();
+  }
+}

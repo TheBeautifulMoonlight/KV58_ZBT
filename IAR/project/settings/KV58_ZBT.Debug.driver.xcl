@@ -6,7 +6,7 @@
 
 "-p" 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CONFIG\debugger\NXP\MKV58F1M0xxx24.ddf" 
+"E:\单片机IAR\IAR\arm\CONFIG\debugger\NXP\MKV58F1M0xxx24.ddf" 
 
 "--drv_verify_download" 
 

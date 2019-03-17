@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+& "E:\单片机IAR\IAR\common\bin\cspybat" -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --backend -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\KV58_project\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
+& "E:\单片机IAR\IAR\common\bin\cspybat" -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.general.xcl" --debug_file=$debugfile --backend -f "G:\电子设计\KV58\KV58_ZBT\IAR\project\settings\KV58_ZBT.Debug.driver.xcl" 
 }

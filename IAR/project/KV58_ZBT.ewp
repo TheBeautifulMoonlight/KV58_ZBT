@@ -66,7 +66,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>8.32.2.19370</state>
+                    <state>8.30.1.17146</state>
                 </option>
                 <option>
                     <name>GeneralEnableMisra</name>
@@ -116,7 +116,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -133,7 +133,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -156,7 +156,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -215,12 +215,12 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>35</version>
+                <version>34</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
                     <name>CCDefines</name>
-                    <state>CPU_MKV58F1M0VLQ24</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -232,7 +232,7 @@
                 </option>
                 <option>
                     <name>CCPreprocLine</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCListCFile</name>
@@ -260,7 +260,7 @@
                 </option>
                 <option>
                     <name>CCDiagSuppress</name>
-                    <state>Pa182,Pa082</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
@@ -281,7 +281,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>11111110</state>
+                    <state>00000000</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -345,20 +345,7 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\src\app</state>
-                    <state>$PROJ_DIR$\..\src\CMSIS</state>
-                    <state>$PROJ_DIR$\..\src\Control</state>
-                    <state>$PROJ_DIR$\..\src\drivers</state>
-                    <state>$PROJ_DIR$\..\src\fsl</state>
-                    <state>$PROJ_DIR$\..\src\startup</state>
-                    <state>$PROJ_DIR$\..\src\utilities</state>
-                    <state>$PROJ_DIR$\..\src</state>
-                    <state>$PROJ_DIR$\..\src\ugfx</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\drivers\gdisp\ILI9341</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\src\gdisp</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\src</state>
-                    <state>$PROJ_DIR$\..\src\Control\menu</state>
-                    <state>$PROJ_DIR$\..\src\fatfs</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -374,7 +361,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>3</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -383,7 +370,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>3</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -475,10 +462,6 @@
                 <option>
                     <name>IccRTTI2</name>
                     <state>0</state>
-                </option>
-                <option>
-                    <name>OICompilerExtraOption</name>
-                    <state>1</state>
                 </option>
             </data>
         </settings>
@@ -700,7 +683,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>22</version>
+                <version>21</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -753,7 +736,7 @@
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogFile</name>
@@ -777,11 +760,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$\..\project\MKV58F1M0xxx24_flash.icf</state>
+                    <state>lnk0t.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -841,7 +824,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state>__iar_program_start</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1014,11 +997,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>KV58_ZBT_import_lib.o</state>
-                </option>
-                <option>
-                    <name>OILinkExtraOption</name>
-                    <state>1</state>
+                    <state>###Unitialized###</state>
                 </option>
             </data>
         </settings>
@@ -1164,7 +1143,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -1181,7 +1160,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -1204,7 +1183,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>27</version>
+                    <version>26</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -1263,13 +1242,12 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>35</version>
+                <version>34</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>0</debug>
                 <option>
                     <name>CCDefines</name>
                     <state>NDEBUG</state>
-                    <state>CPU_MKV58F1M0VLQ24</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -1281,7 +1259,7 @@
                 </option>
                 <option>
                     <name>CCPreprocLine</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCListCFile</name>
@@ -1309,7 +1287,7 @@
                 </option>
                 <option>
                     <name>CCDiagSuppress</name>
-                    <state>Pa182,Pa082</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
@@ -1378,7 +1356,7 @@
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>$FILE_BNAME$.o</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLibConfigHeader</name>
@@ -1394,20 +1372,7 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$PROJ_DIR$\..\src\app</state>
-                    <state>$PROJ_DIR$\..\src\CMSIS</state>
-                    <state>$PROJ_DIR$\..\src\Control</state>
-                    <state>$PROJ_DIR$\..\src\drivers</state>
-                    <state>$PROJ_DIR$\..\src\fsl</state>
-                    <state>$PROJ_DIR$\..\src\startup</state>
-                    <state>$PROJ_DIR$\..\src\utilities</state>
-                    <state>$PROJ_DIR$\..\src</state>
-                    <state>$PROJ_DIR$\..\src\ugfx</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\drivers\gdisp\ILI9341</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\src\gdisp</state>
-                    <state>$PROJ_DIR$\..\src\ugfx\src</state>
-                    <state>$PROJ_DIR$\..\src\Control\menu</state>
-                    <state>$PROJ_DIR$\..\src\fatfs</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1432,7 +1397,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>3</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -1524,10 +1489,6 @@
                 <option>
                     <name>IccRTTI2</name>
                     <state>0</state>
-                </option>
-                <option>
-                    <name>OICompilerExtraOption</name>
-                    <state>1</state>
                 </option>
             </data>
         </settings>
@@ -1749,7 +1710,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>22</version>
+                <version>21</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>0</debug>
                 <option>
@@ -1766,7 +1727,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>KV58_ZBT.out</state>
+                    <state>###Unitialized###</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1802,7 +1763,7 @@
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IlinkLogFile</name>
@@ -1826,11 +1787,11 @@
                 </option>
                 <option>
                     <name>IlinkIcfOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$\..\project\MKV58F1M0xxx24_flash.icf</state>
+                    <state>lnk0t.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1890,7 +1851,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state>__iar_program_start</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -2063,11 +2024,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>KV58_ZBT_import_lib.o</state>
-                </option>
-                <option>
-                    <name>OILinkExtraOption</name>
-                    <state>1</state>
+                    <state>###Unitialized###</state>
                 </option>
             </data>
         </settings>

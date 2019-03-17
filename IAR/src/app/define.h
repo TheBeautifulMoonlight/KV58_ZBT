@@ -45,4 +45,23 @@
 #define NRF_CE PTA25_OUT
 #define NRF_IRQ PTA24_OUT
 
+//motor_left
+#define motor_left_FTM 
+#define motor_left_DIR
+//motor_right
+#define motor_right_FTM
+#define motor_left_DIR
+   
+//steer
+#define steer_FTM 
+#define steer_FTM_max
+#define steer_FTM_min
+#define steer_FTM_middle
+   
+//mode
+#define mode_1
+#define mode_2
+#define mode_3
+#define mode_4
+   
 #endif /* DEFINE_H_ */
