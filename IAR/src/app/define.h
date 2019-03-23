@@ -64,4 +64,20 @@
 #define mode_3
 #define mode_4
    
+//运算宏定义
+#define max(a, b)			(a>b? a:b)
+#define min(a, b)			(a<b? a:b)
+#define range(x, a, b)		(min(max(x, a), b))
+#define line_min 10
+#define line_max 200
+#define line_num 190                //line_num = line_max-line_max
+
+   
+//原型声明
+void gpio_set (PORT_Type* ptn, u8 n,u8 data)；
+void two_read_image(void);
+float PID_position(PID_position_type *p);
+float PID_increment(PID_increment_type *p);
+
+   
 #endif /* DEFINE_H_ */
